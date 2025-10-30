@@ -1,0 +1,38 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.conteiner{
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+h1{
+    margin-left: 40px;
+}
+li{
+    font-size: 20px;
+    min-height: 30px;
+}
+ul{
+    list-style-type: none;
+}
+li:nth-child(even){
+    background-color: aqua;
+}
+li:nth-child(odd){
+    background-color: rgb(107, 199, 199);
+}
+li.done{
+    background-color: bisque;
+}
+li::after{
+    content: '\2717';
+    font-size: 12px;
+    color: red;
+    margin-left: 30px;
+}
+img{
+    max-width: 10px;
+    margin-left: 30px;
+    margin-right: 15px;
+}
